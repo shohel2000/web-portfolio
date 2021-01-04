@@ -21,8 +21,12 @@ h1{
 .half-width img{
     width: 100%;
 }
+p{
+    color: cadetblue;
+}
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -31,4 +35,9 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream_part{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
