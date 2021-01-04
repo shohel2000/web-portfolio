@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
-.myNameColor{
+.orange-highlight{
     color: orange;
 }
 .header_part{
@@ -24,7 +24,7 @@ h1{
 p{
     color: cadetblue;
 }
-section{
+.header_part{
     height: 500px;
     padding-bottom: 100px;
 }
@@ -37,7 +37,36 @@ section{
     font-weight: 700;
 }
 .dream_part{
+    height: 500px;
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 50px;
+
+}
+.experience_part{
+    height: 500px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single_exp{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby_dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: tomato;
+    font-size: 10px;
 }
